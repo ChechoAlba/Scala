@@ -19,6 +19,14 @@ The code and excercises in this repository are relationship with an Udemy course
   * prefix notation !mary == mary.unary_! (only allowed +,-,!,~)
   * postfix notation, for methods with no parameters => mary.isAlive == mary isAlive
   * apply method / is special, you can call the method how a function method() mary.apply() == mary()
+* Scala objects
+  * Scala does not have static values methods
+  * are in ther own class
+  * are the only instance
+  * singleton pattern in one line
+  * Scala companions
+    * can access each others private members
+  * Scala applications
 
 ## The tech stack of this repo is:
 * Scala 3.2.2
