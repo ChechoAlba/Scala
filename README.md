@@ -27,6 +27,8 @@ The code and excercises in this repository are relationship with an Udemy course
   * Scala companions
     * can access each others private members
   * Scala applications
+* Inheritance
+  * Class extends class - inheritance all no private-protected methods
 
 ## The tech stack of this repo is:
 * Scala 3.2.2
