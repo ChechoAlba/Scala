@@ -30,6 +30,12 @@ The code and excercises in this repository are relationship with an Udemy course
 * Inheritance
   * Class extends class - inheritance all no private-protected methods
 * Abstratc
+* 
+## Section 03 Functional programming
+* Functions
+  * All scala functions are objects!
+    * function traits, up to 22 params
+    * syntactic sugar function types
 
 ## The tech stack of this repo is:
 * Scala 3.2.2
