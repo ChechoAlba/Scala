@@ -43,6 +43,9 @@ object WhatAFunction extends App{
       override def apply(y: Int): Int = x + y
     }
   }
+  
+  // lambda
+  val supperAdder2: (Int, Int) => Int = _ + _
 
   val adder3 = superAdder(3)
   println(adder3(4))

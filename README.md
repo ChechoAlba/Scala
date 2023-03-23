@@ -36,6 +36,17 @@ The code and excercises in this repository are relationship with an Udemy course
   * All scala functions are objects!
     * function traits, up to 22 params
     * syntactic sugar function types
+  * Lambda:
+    * Instead of passing anonymous FunctionX instances every time use lambdas
+    * (x: Int, y:Int) => x + y
+    * Further sugar: val add: (Int, Int) => Int = _ + _
+  * High Order Functions
+    * Functional programming = working with functions
+      * pass functions as parameters
+      * return functions as results
+      * def nTimesBetter(f: Int => Int, n: Int): Int => Int
+    * Currying = functions with multiple parameter lists
+      * def curriedFormatter(a: String, b: String) (c: String): String
 
 ## The tech stack of this repo is:
 * Scala 3.2.2
